@@ -23,7 +23,7 @@ export default function ArtList () {
 
     return(
         <ul className="art-list">
-            {art.map((arts, index) =>
+            {art.map((arts) =>
             <ArtListItem
                 key={arts.id}
                 title={arts.title}
